@@ -1,0 +1,13 @@
+package br.com.xti;
+
+public class Carro {
+
+	String modelo;
+	int velocidadeMaxima;
+	double segundosZeroACem;
+	Motor motor;
+	
+	public Carro(){
+		
+	}
+}

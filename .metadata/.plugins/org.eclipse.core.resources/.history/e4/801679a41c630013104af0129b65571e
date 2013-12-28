@@ -1,0 +1,13 @@
+package br.com.xti;
+
+public class MatematicaTest {
+
+	public static void main(String[] args) {
+
+		Matematica m = new Matematica();
+		int maior = m.maior(10, 20);
+		System.out.println(maior);
+
+	}
+
+}

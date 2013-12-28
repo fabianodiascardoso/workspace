@@ -1,0 +1,32 @@
+package gui;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+
+public class Calculadora extends JFrame{
+	JTextField resultado;
+	
+	public Calculadora(){
+	super ("Calculadora");
+	resultado = new JTextField();
+	
+	Container c = getContentPane();
+	c.setLayout(new  FlowLayout());
+	Container d = getContentPane();
+	d.setLayout(new  GridLayout(4,4));
+	c.add(resultado);
+	c.add(d);
+	
+	}
+	public static void main(String[] args) {
+		new Calculadora();
+
+	}
+
+}

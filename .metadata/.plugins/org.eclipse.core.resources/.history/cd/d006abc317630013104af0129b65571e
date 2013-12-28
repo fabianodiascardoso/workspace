@@ -1,0 +1,14 @@
+package br.com.xti;
+
+import br.com.xti.*;
+
+public class ContaTest {
+
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.cliente = "Ricardo";
+		conta.saldo = 10000.00;
+		conta.exibeSaldo();
+	}
+
+}

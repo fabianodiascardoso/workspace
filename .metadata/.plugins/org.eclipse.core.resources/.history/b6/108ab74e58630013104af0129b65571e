@@ -1,0 +1,9 @@
+package br.com.xti;
+
+public class Motor {
+	string tipo;
+	int potencia;
+	
+	public Motor(){
+
+}

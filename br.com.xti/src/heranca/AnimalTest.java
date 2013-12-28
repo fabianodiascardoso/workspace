@@ -1,0 +1,19 @@
+package heranca;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		Cachorro toto = new Cachorro();
+		toto.comida="carne";
+		toto.fazerBarulho();
+		toto.dormir();
+		
+		
+		
+		Galinha carijo = new Galinha();
+		carijo.dormir();
+		
+
+	}
+
+}
